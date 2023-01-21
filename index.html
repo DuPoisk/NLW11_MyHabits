@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="./style.css">
+
+  <title>MyHabits</title>
+</head>
+
+<body>
+  <header>
+    <img src="./assets/logo.svg" alt="Logomarca do aplicativo habits com 6 pequenos quadrados enfileirados na horizontal em degradê acima da palavra habits escrita na cor branca">
+    
+    <button>
+      <img src="./assets/plus.svg" alt="ícone do sinal de mais, na cor roxa">
+     
+      <div>
+      Registrar meu novo dia
+      </div> 
+    </button>
+  </header>
+
+  <form id="form-habits">
+    <div class="habits">
+      <div class="habit" data-name="wakeupearly" >🌞</div>
+      <div class="habit" data-name="silicon">💊</div>
+      <div class="habit" data-name="exercise">🧘🏽‍♀️</div>
+      <div class="habit" data-name="water">🫗</div>
+      <div class="habit" data-name="supplement">🧋</div>
+      <div class="habit" data-name="lunchpill">💊</div>
+      <div class="habit" data-name="studyingRFB">📚</div>
+      <div class="habit" data-name="programming">👩🏽‍💻</div>      
+      <div class="habit" data-name="writing">✍🏽</div>
+      <div class="habit" data-name="germanclass">🍻</div>
+      <div class="habit" data-name="investiments">💰</div>
+      <div class="habit" data-name="watertheplants">🪴</div>
+      <div class="habit" data-name="driving">🚗</div>
+      <div class="habit" data-name="volleyball">🏐</div> 
+      <div class="habit" data-name="painting">🎨</div>
+      <div class="habit" data-name="stretching">🙅🏽‍♀️</div>
+      <div class="habit" data-name="nightpill">💊</div>
+      <div class="habit" data-name="face">💆🏽‍♀️</div>
+      <div class="habit" data-name="hair">💇🏽‍♀️</div>
+      <div class="habit" data-name="sleepearly">🛌🏽</div>  
+    </div>
+
+    <div class="days"></div>       
+  </form>
+
+  <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
