@@ -34,6 +34,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O MyHabits é um app para ajudar a rastrear os hábitos ao longo dos dias.
 
+- [Visite o projeto online] (https://dupoisk.github.io/NLW11_MyHabits/)
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1187422022288947321). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
